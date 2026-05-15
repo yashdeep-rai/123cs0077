@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    font-family: sans-serif;
+    min-width: 50vw;
+    min-height: 50vh;
+    background-color: rgb(196, 27, 27);
+}
+
+#submit-btn{
+    
+}

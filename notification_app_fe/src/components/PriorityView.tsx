@@ -112,7 +112,7 @@ export default function PriorityView({ token }: Props) {
                         </Select>
                     </FormControl>
 
-                    <FormControl size="small" sx={{ minWidth: 150 }}>
+                    {/* <FormControl size="small" sx={{ minWidth: 150 }}>
                         <InputLabel>Filter Type</InputLabel>
                         <Select
                             value={filterType}
@@ -127,7 +127,7 @@ export default function PriorityView({ token }: Props) {
                             <MenuItem value="Result">Result</MenuItem>
                             <MenuItem value="Placement">Placement</MenuItem>
                         </Select>
-                    </FormControl>
+                    </FormControl> */}
                 </Box>
             </Box>
 

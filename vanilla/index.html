@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="main">
+
+        <h2>Temperature Converter</h2>
+        <p>Temperature:</p>
+        <input type="number" id="temp" />
+
+        <p>From Unit:</p>
+        <input type="text" id="source" />
+
+        <p>To Unit:</p>
+        <input type="text" id="dest" />
+        <br>
+        <button onclick="handleConversion()" id="submit-btn">Convert</button>
+
+        <div class="result-div">
+            <h6>Result:</h6>
+            <p id="result">---</p>
+        </div>
+
+    </div>
+</body>
+</html>
